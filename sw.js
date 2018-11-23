@@ -2,6 +2,10 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
     '/',
+    'https://unpkg.com/react@16/umd/react.development.js',
+    'https://unpkg.com/react-dom@16/umd/react-dom.development.js',
+    'https://unpkg.com/babel-standalone@latest/babel.min.js',
+    'https://fonts.googleapis.com/css?family=Roboto',
     '/script.js',
     '/styles.css',
     '/register-sw.js',
